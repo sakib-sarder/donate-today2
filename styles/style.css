@@ -57,92 +57,147 @@
 
 .dt-head {
     text-align: center;
-    margin-top: 130px ;
+    margin-top: 130px;
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 20px;
 }
-.dt-description{
+
+.dt-description {
     text-align: center;
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 50px;
 }
-.ammount{
+
+.ammount {
     display: flex;
     justify-content: center;
     gap: 21px;
     margin-bottom: 60px;
 }
-.tk{
+
+.tk {
     padding: 40px;
     background-color: #FAFAFA;
 }
-.money{
-    color:#707070;
+
+.money {
+    color: #707070;
     font-weight: 700;
     font-size: 30px;
     text-align: center;
 }
-.other-ammount{
+
+.other-ammount {
     font-size: 18px;
-    color:#B3B3B3;
+    color: #B3B3B3;
     text-align: center;
     line-height: 25px;
     border-bottom: 1px solid #707070;
     margin-bottom: 15px;
 }
-.ammout-btn-p{
+
+.ammout-btn-p {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
 }
-.our-donate-plan{
+
+.our-donate-plan {
     text-align: center;
 }
-.our-donate-plan > h1{
+
+.our-donate-plan>h1 {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 20px;
 }
-.our-donate-plan > p{
+
+.our-donate-plan>p {
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 45px;
 }
-.donation-box-container{
+
+.donation-box-container {
     margin-bottom: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
-.donation-box{
+
+.donation-box {
     width: 360px;
     height: 350px;
     padding: 25px;
     border-radius: 10px;
 }
-.icons{
+
+.icons {
     padding-top: 15px;
 }
-.donation-box > h2{
+
+.donation-box>h2 {
     padding-top: 15px;
     font-weight: 700;
     font-size: 25px;
 }
-.donation-box > p{
+
+.donation-box>p {
     padding-top: 10px;
     font-weight: 500;
 }
-.box-1{
-    background-color:rgba(79, 157, 166, 0.1);
+
+.box-1 {
+    background-color: rgba(79, 157, 166, 0.1);
 }
-.box-2{
-    background-color:rgba(255, 239, 239, 0.6)
+
+.box-2 {
+    background-color: rgba(255, 239, 239, 0.6)
 }
-.box-3{
+
+.box-3 {
     background-color: rgba(255, 244, 214, 0.8);
 }
+
 /* donatation box completed  */
+.donation-time1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.flood {
+    width: 456px;
+    height: 477px;
+    border-radius: 10px;
+}
+
+.detais {
+    width: 456px;
+    height: 477px;
+}
+.details-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    
+}
+.up{
+    margin-top: 20px;
+}
+.down{
+    margin-bottom: 20px;
+}
+.donation-time2 {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+/* Donation Time Complete */
