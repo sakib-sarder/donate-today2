@@ -82,6 +82,7 @@
     background-color: #FAFAFA;
 }
 .adjusted-tk{
+    border-radius: 5px;
     border: 2px solid #FF5959;
     background-color: #FFEEEE;
 }
