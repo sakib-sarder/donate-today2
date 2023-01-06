@@ -1,0 +1,100 @@
+/* Universal Area Style */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-primary {
+    background-color: #FF5959;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 20.5px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Landing Page */
+.landing-page {
+    background-image: url("../images/donation2.jpg"), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-banner {
+    width: 60vw;
+    height: 50vh;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.landing-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.landing-description {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+/* Main Part */
+.boss {
+
+    margin: 0px 180px;
+}
+
+.dt-head {
+    text-align: center;
+    margin-top: 130px ;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.dt-description{
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.ammount{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    margin-bottom: 60px;
+}
+.tk{
+    padding: 40px;
+    background-color: #FAFAFA;
+}
+.money{
+    color:#707070;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.other-ammount{
+    font-size: 18px;
+    color:#B3B3B3;
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 15px;
+}
+.ammout-btn-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
