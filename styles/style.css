@@ -81,7 +81,13 @@
     padding: 40px;
     background-color: #FAFAFA;
 }
-
+.adjusted-tk{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+.adjusted-tk > .money{
+    color: #FF5959;
+}
 .money {
     color: #707070;
     font-weight: 700;
