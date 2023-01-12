@@ -268,5 +268,57 @@
     color: #FAFAFA;
     text-align: center;
 }
+/* Fooer Ends */
+.hide{
+    display: none;
+}
+/* For Responsive */
+@media screen and (max-width: 576px) {
+    .ammount{
+        flex-direction: column;
+    }
+    .tk{
+        padding: 40;
+        margin-left: 20px;
+        width: 150px;
+    }
+    .dt-description{
+        padding: 20px;
+        width:300px;
+        margin-left: -60px;
+        text-align: center;
+    }
+    .ammount-btn{
+        padding: 16px 50px;
+        margin-left: 170px;
+    }
+    .other-ammount{
+        font-size: 18px;
+        border: none;
+        width: 300px;
+        margin-left: -50px;
+        text-align: center;
+    }
+    .mq-h{
+        width: 400px;
+        margin-left: -110px;
+    }
+    .mq-p{
+        width: 300px;
+        margin-left: -60px;
+    }
+    .donation-box-container{
+        flex-direction: column;
+        margin-left: 80px;
+    }
+    .donation-time1{
+        flex-direction: column-reverse;
+        margin-left: 70px;
+    }
+    .donation-time2{
+        flex-direction: column;
+        margin-left: 80px;
+    }
 
+}
 /*                          END                      */
